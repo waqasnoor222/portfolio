@@ -12,16 +12,6 @@ const experience = [
     title: "Frontend UI Developer",
     company: "Meezotech",
   },
-  {
-    year: "2021 – 2022",
-    title: "Web Developer",
-    company: "Expertezo",
-  },
-  {
-    year: "2020 – 2021",
-    title: "Web Developer Intern",
-    company: "Seasol Consultancy",
-  },
 ]
 
 const education = [
