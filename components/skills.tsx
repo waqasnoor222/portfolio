@@ -10,6 +10,9 @@ import materialUiImg from "@/public/images/skills/material-ui.png"
 import firebaseImg from "@/public/images/skills/firebase.png"
 import wordpressImg from "@/public/images/skills/wp.png"
 import figmaImg from "@/public/images/skills/figma.png"
+import css from "@/public/images/skills/css.png"
+import scss from "@/public/images/skills/scss.png"
+import angular from "@/public/images/skills/angularjs.png"
 import xdImg from "@/public/images/skills/xd.webp"
 import Container from "./Container"
 import { motion } from 'framer-motion';
@@ -17,13 +20,13 @@ import { useSectionAnimation } from '@/hooks/useSectionAnimation';
 import { sectionVariants } from '@/components/animations/section-variants';
 
 const skills = [
-  { name: "Next", icon: nextImg, percentage: 50 },
-  { name: "React", icon: reactImg, percentage: 80 },
-  { name: "JavaScript", icon: jsImg, percentage: 93 },
+  // { name: "Next", icon: nextImg, percentage: 50 },
+  // { name: "React", icon: reactImg, percentage: 80 },
   { name: "HTML", icon: htmlImg, percentage: 99 },
-  { name: "Tailwind", icon: tailwindImg, percentage: 80 },
-  { name: "Material UI", icon: materialUiImg, percentage: 80 },
-  { name: "Firebase", icon: firebaseImg, percentage: 50 },
+  { name: "Angular", icon: angular, percentage: 70 },
+  { name: "Css", icon: css, percentage: 93 },
+  { name: "Scss", icon: scss, percentage: 93 },
+  { name: "JavaScript", icon: jsImg, percentage: 30 },
   { name: "WordPress", icon: wordpressImg, percentage: 90 },
   { name: "Figma to Code", icon: figmaImg, percentage: 90 },
   { name: "XD to Code", icon: xdImg, percentage: 90 },

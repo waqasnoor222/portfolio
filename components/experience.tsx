@@ -8,27 +8,22 @@ import { sectionVariants } from '@/components/animations/section-variants';
 
 const experience = [
   {
-    year: "2022 – Present",
-    title: "Frontend UI Developer",
+    year: "2025 – Present",
+    title: "Frontend UI Developer (Angular)",
+    company: "Path (Pvt.) Ltdt",
+  },
+   {
+    year: "2021 – 2025",
+    title: "Frontend Developer (Angular)",
     company: "Meezotech",
   },
 ]
 
 const education = [
   {
-    year: "2024 – Present",
+    year: "2022 – Continue",
     title: "Bachelor of Science in Computer Science",
-    company: "National University of Modern Languages",
-  },
-  {
-    year: "2021 – 2022",
-    title: "Front-End Development Course",
-    company: "Online Learning / Self-Study",
-  },
-  {
-    year: "2020 – 2021",
-    title: "WordPress & Web Design Training",
-    company: "Online Learning / Self-Study",
+    company: "Federal Urdu University of Arts, Sciences & Technology",
   },
 ]
 

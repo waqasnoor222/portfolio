@@ -14,7 +14,7 @@ import Stats from "@/components/stats"
 let socialLink = [
   { id: 3, name: "linkedin", icon: <Linkedin className="size-4" />, url: "https://www.linkedin.com/in/waqasnoor222/" },
   { id: 4, name: "github", icon: <Github className="size-4" />, url: "https://github.com/waqasnoor222" },
-  { id: 2, name: "hackerrank", icon: <Braces className="size-4" />, url: "https://www.hackerrank.com/profile/hamza_awan2609" },
+  // { id: 2, name: "hackerrank", icon: <Braces className="size-4" />, url: "https://www.hackerrank.com/profile/hamza_awan2609" },
   { id: 5, name: "whatsapp", icon: <MessageSquare className="size-4" />, url: "wa.me/923412157169" },
   // { id: 1, name: "twitter", icon: <Twitter className="size-4" />, url: "#" },
 ]

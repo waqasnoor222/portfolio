@@ -14,7 +14,11 @@ import { useSectionAnimation } from '@/hooks/useSectionAnimation';
 import { sectionVariants } from '@/components/animations/section-variants';
 import { useAnalytics } from "../hooks/useAnalytics";
 import darentImage from "@/public/images/portfolio-images/darent-img.png";
-import spiderWeb from "@/public/images/portfolio-images/spiders.png";
+import spidersWeb from "@/public/images/portfolio-images/spiders.png";
+import spidersPanel from "@/public/images/portfolio-images/spider_panel.png";
+import meezoWeb from "@/public/images/portfolio-images/meezo.png";
+import fms from "@/public/images/portfolio-images/fms_2.png";
+import acig from "@/public/images/portfolio-images/acig.png";
 import raDesertSafariImage from "@/public/images/portfolio-images/ra-desert-safari-img.png"
 import hydeParkDigitalsImage from "@/public/images/portfolio-images/hyde-park-digitals.png"
 import paraMountZoneImage from "@/public/images/portfolio-images/para-mount-zone.png"
@@ -26,96 +30,123 @@ import capitalHausImage from "@/public/images/portfolio-images/capital-haus.png"
 import rcResidencesImage from "@/public/images/portfolio-images/rc-residences.png"
 
 const projects = [
-    {
+  {
     id: 1,
-    title: "Spiders",
+    title: "Spiders Web",
     description: "Making Everyday Commute Easier, Cheaper & Fun!",
-    image: spiderWeb,
+    image: spidersWeb,
     link: "https://spiders.sa/",
     github: "#",
     tags: ["Angular", "Scss", "Bootstrap"],
   },
-     {
+  {
     id: 2,
-    title: "Meezotech",
-    description: "Making Everyday Commute Easier, Cheaper & Fun!",
-    image: spiderWeb,
-    link: "http://meezotech.com/",
+    title: "Spiders Admin Panel",
+    description: "Smart Tools to Manage, Monitor & Optimize Your Daily Operations.",
+    image: spidersPanel,
+    link: "https://newpanel.spidersprod.link/#/login/login-main",
     github: "#",
     tags: ["Angular", "Scss", "Bootstrap"],
   },
-  // {
-  //   id: 1,
-  //   title: "Darent",
-  //   description: "A modern rental platform built for seamless user experience",
-  //   image: darentImage,
-  //   link: "https://darent.com/",
-  //   github: "#",
-  //   tags: ["Laravel", "Vue.js", "Bootstrap"],
-  // },
-  // {
-  //   id: 2,
-  //   title: "Dish Dash",
-  //   description: "A restaurant web app focused on speed and simplicity",
-  //   image: dishDashImage,
-  //   link: "https://hamza-awan09.github.io/dish-dash/",
-  //   github: "https://github.com/hamza-awan09/dish-dash",
-  //   tags: ["React", "Tailwind", "Material UI"],
-  // },
-  //   {
-  //   id: 3,
-  //   title: "Para Mount Zone",
-  //   description: "A polished website for Paramount Zone UAE, designed to simplify business setup and inspire confidence.",
-  //   image: paraMountZoneImage,
-  //   link: "https://paramountzone.ae/",
-  //   github: "#",
-  //   tags: ["Wordpress", "Elementor", "jQuery"],
-  // },
-  // {
-  //   id: 4,
-  //   title: "Hyde Park Digitals",
-  //   description: "Modern website for Hydepark Digitals, built to engage and inspire.",
-  //   image: hydeParkDigitalsImage,
-  //   link: "https://hydeparkdigitals.com/",
-  //   github: "#",
-  //   tags: ["Wordpress", "Elementor", "jQuery"],
-  // },
-  // {
-  //   id: 5,
-  //   title: "RA Desert Safari",
-  //   description: "A Tourism website focused on speed and simplicity",
-  //   image: raDesertSafariImage,
-  //   link: "https://radesertsafari.com/",
-  //   github: "https://github.com/hamza-awan09/ra-desert-safari",
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  // },
-  // {
-  //   id: 6,
-  //   title: "kling Consult",
-  //   description: "Global IT consultancy powering digital transformation for businesses.",
-  //   image: klingConsultImage,
-  //   link: "https://www.klingconsult.com/",
-  //   github: "#",
-  //   tags: ["Wordpress", "jQuery", "Bootstrap"],
-  // },
-  // {
-  //   id: 7,
-  //   title: "Capital Haus",
-  //   description: "Strategic financial solutions for business growth and investment success.",
-  //   image: capitalHausImage,
-  //   link: "https://capitalhaus.com/",
-  //   github: "#",
-  //   tags: ["Wordpress", "jQuery", "Bootstrap"],
-  // },
-  // {
-  //   id: 8,
-  //   title: "RC Residences",
-  //   description: "Luxury waterfront living in the heart of Business Bay, offering premium apartments and amenities.",
-  //   image: rcResidencesImage,
-  //   link: "https://rcresidences-businessbay.com/",
-  //   github: "#",
-  //   tags: ["Wordpress", "jQuery", "Bootstrap"],
-  // },
+  {
+    id: 13,
+    title: "Formula One",
+    description: "Making Fleet Management Easier, Smarter & Cost-Effective.",
+    image: fms,
+    link: "",
+    github: "#",
+    tags: ["Angular", "Scss", "Bootstrap"],
+  },
+   {
+    id: 14,
+    title: "ACIG Motor Claim Center",
+    description: "Fast, Reliable & Hassle-Free Motor Claim Services.",
+    image: acig,
+    link: "",
+    github: "#",
+    tags: ["Angular", "Scss", "Bootstrap"],
+  },
+  {
+    id: 3,
+    title: "Meezotech",
+    description: "Making Everyday Commute Easier, Cheaper & Fun!",
+    image: meezoWeb,
+    link: "http://meezotech.com/",
+    github: "#",
+    tags: ["Wordpress", "Scss", "Bootstrap"],
+  },
+  {
+    id: 4,
+    title: "Darent",
+    description: "A modern rental platform built for seamless user experience",
+    image: darentImage,
+    link: "https://darent.com/",
+    github: "#",
+    tags: ["Laravel", "Vue.js", "Bootstrap","Scss"],
+  },
+  {
+    id: 6,
+    title: "Dish Dash",
+    description: "A restaurant web app focused on speed and simplicity",
+    image: dishDashImage,
+    link: "https://hamza-awan09.github.io/dish-dash/",
+    github: "https://github.com/hamza-awan09/dish-dash",
+    tags: ["React", "Tailwind", "Material UI"],
+  },
+    {
+    id: 7,
+    title: "Para Mount Zone",
+    description: "A polished website for Paramount Zone UAE, designed to simplify business setup and inspire confidence.",
+    image: paraMountZoneImage,
+    link: "https://paramountzone.ae/",
+    github: "#",
+    tags: ["Wordpress", "Elementor", "jQuery"],
+  },
+  {
+    id: 8,
+    title: "Hyde Park Digitals",
+    description: "Modern website for Hydepark Digitals, built to engage and inspire.",
+    image: hydeParkDigitalsImage,
+    link: "https://hydeparkdigitals.com/",
+    github: "#",
+    tags: ["Wordpress", "Elementor", "jQuery"],
+  },
+  {
+    id: 9,
+    title: "RA Desert Safari",
+    description: "A Tourism website focused on speed and simplicity",
+    image: raDesertSafariImage,
+    link: "https://radesertsafari.com/",
+    github: "https://github.com/hamza-awan09/ra-desert-safari",
+    tags: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 10,
+    title: "kling Consult",
+    description: "Global IT consultancy powering digital transformation for businesses.",
+    image: klingConsultImage,
+    link: "https://www.klingconsult.com/",
+    github: "#",
+    tags: ["Wordpress", "jQuery", "Bootstrap"],
+  },
+  {
+    id: 11,
+    title: "Capital Haus",
+    description: "Strategic financial solutions for business growth and investment success.",
+    image: capitalHausImage,
+    link: "https://capitalhaus.com/",
+    github: "#",
+    tags: ["Wordpress", "jQuery", "Bootstrap"],
+  },
+  {
+    id: 12,
+    title: "RC Residences",
+    description: "Luxury waterfront living in the heart of Business Bay, offering premium apartments and amenities.",
+    image: rcResidencesImage,
+    link: "https://rcresidences-businessbay.com/",
+    github: "#",
+    tags: ["Wordpress", "jQuery", "Bootstrap"],
+  },
 ];
 
 export default function RecentWorks() {

@@ -234,7 +234,7 @@ export default function Contact() {
                   Phone
                 </h4>
                 <p className="text-sm sm:text-lg font-semibold dark:text-[var(--text-dark-color)] text-[var(--secondary-color)]">
-                  +92 315 2266479
+                  +92 341 2157169
                 </p>
               </div>
             </motion.div>
@@ -252,7 +252,7 @@ export default function Contact() {
                   Email
                 </h4>
                 <p className="text-sm sm:text-lg font-semibold dark:text-[var(--text-dark-color)] text-[var(--secondary-color)] break-all">
-                  hamza.awan2609@gmail.com
+                  waqasnoor222@gmail.com
                 </p>
               </div>
             </motion.div>

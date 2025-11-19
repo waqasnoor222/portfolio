@@ -28,7 +28,7 @@ export default function Footer() {
               ease: "backOut"
             }}
           >
-            <span className="text-white font-bold text-2xl sm:text-4xl">HA</span>
+            <span className="text-white font-bold text-2xl sm:text-4xl">MW</span>
           </motion.div>
 
           {/* Navigation Links */}
@@ -72,7 +72,7 @@ export default function Footer() {
             <span 
               className="text-[var(--primary-color)] font-medium"
             >
-              Hamza Awan
+              Muhammad Waqas
             </span>
           </motion.p>
         </div>
