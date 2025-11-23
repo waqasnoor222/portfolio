@@ -4,7 +4,8 @@ import { Download, MessageSquare } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Container from "./Container"
 import Image from "next/image"
-import waqasImage from "@/public/images/m-waqas.jpg"
+import waqasImage from "@/public/images/m-waqas.jpeg"
+// import waqasImage from "@/public/images/m-waqas.jpg"
 import { Linkedin, Twitter, Github, Braces } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useSectionAnimation } from '@/hooks/useSectionAnimation';
@@ -97,8 +98,9 @@ export default function Hero() {
                       src={waqasImage}
                       alt="Muhammad Waqas"
                       width={430}
-                      height={500}
+                      height={480}
                       className="object-cover"
+                      style={{ objectPosition: "center", height: "480px" }}
                     />
                   </div>
                 </div>
@@ -159,8 +161,10 @@ export default function Hero() {
                     src={waqasImage}
                     alt="Muhammad Waqas"
                     width={430}
-                    height={500}
+                    height={480}
                     className="object-cover"
+                    style={{ objectPosition: "center", height: "480px" }}
+
                   />
                 </div>
               </div>
